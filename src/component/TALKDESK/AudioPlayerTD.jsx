@@ -8,7 +8,7 @@ const AudioPlayerTD = ({selectedTableRow }) => {
 
   const waveformRef = useRef(null);
   const wavesurferRef = useRef(null);
-  const audioPath="/Video1.mp3";
+  const audioPath="/talkdeskaudio.mp3";
 
   useEffect(() => {
     if (!audioPath) return; // Ensure there's a valid audio file
